@@ -1,10 +1,13 @@
 let btnSalir = document.getElementById("btnSalir");
+let personita = document.getElementById("personita");
 
-let email = localStorage.getItem("email");
+let nombre = localStorage.getItem("Nombre");
 
-if (email == null){
-    location.href = "index.html"
-};
+if (nombre == null){
+    location.href = "index.html";
+} else {
+    personita.innerHTML = nombre;
+}
 
 btnSalir.addEventListener("click", () => {
     localStorage.clear()
