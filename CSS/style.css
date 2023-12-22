@@ -6,7 +6,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-body {
+#inicio {
     background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100%25' width='100%25'%3E%3Cdefs%3E%3Cpattern id='doodad' width='42' height='42' viewBox='0 0 40 40' patternUnits='userSpaceOnUse' patternTransform='rotate(156)'%3E%3Crect width='100%25' height='100%25' fill='rgba(125, 91, 115, 1)'/%3E%3Cpath d='M-20 32l20-20l20 20l20-20l20 20l20-20l20 20v-4l-20-20l-20 20l-20-20l-20 20l-20-20l-20 20zM-20-8l20-20l20 20l20-20l20 20l20-20l20 20v-4l-20-20l-20 20l-20-20l-20 20l-20-20l-20 20zM-20 72l20-20l20 20l20-20l20 20l20-20l20 20v-4l-20-20l-20 20l-20-20l-20 20l-20-20l-20 20z ' fill='rgba(12, 44, 126, 1)' filter='url(%23filter-doodad-1)'/%3E%3Cpath d='M20.5-3l20 20l-20 20l20 20l-20 20l20 20l-20 20h-1l20-20l-20-20l20-20l-20-20l20-20l-20-20zM-19.5-3l20 20l-20 20l20 20l-20 20l20 20l-20 20h-1l20-20l-20-20l20-20l-20-20l20-20l-20-20zM60.5-3l20 20l-20 20l20 20l-20 20l20 20l-20 20h-1l20-20l-20-20l20-20l-20-20l20-20l-20-20z ' fill='rgba(250, 0, 0, 1)' filter='url(%23filter-doodad-2)'/%3E%3C/pattern%3E%3Cfilter id='filter-doodad-1'%3E%3CfeGaussianBlur in='SourceGraphic' stdDeviation='1'/%3E%3C/filter%3E%3Cfilter id='filter-doodad-2'%3E%3CfeTurbulence baseFrequency='0.01 0.9' numOctaves='2' result='result1'/%3E%3CfeDisplacementMap in2='result1' scale='4' result='result2' xChannelSelector='R' yChannelSelector='G' in='SourceGraphic'/%3E%3CfeComposite in2='result2' in='SourceGraphic' operator='atop' result='compositeGraphic'/%3E%3CfeOffset in='compositeGraphic' result='fbSourceGraphic' dx='-0.4'/%3E%3C/filter%3E%3C/defs%3E%3Crect fill='url(%23doodad)' height='200%25' width='200%25'/%3E%3C/svg%3E ");
     display: flex;
     justify-content: center;
@@ -16,6 +16,11 @@ body {
     height: 100vh;
 }
 
-hr {
-    color: black;
+#adentro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
 }
